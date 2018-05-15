@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Vehicle Management</title>
+<script>
+function addvehicle(){
+	var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "http://localhost:8080/vehicle-management/rest/vehiclemanage/addvehicle", true);
+    xhttp.send();
+}
+</script>
+</head>
+<body>
+<h1>Vehicle Management</h1>
+<a href="http://localhost:8080/movie-management/AddMovie.html">Add/Update Movie</a><br><br>
+<a href="http://localhost:8080/movie-management/DeleteMovie.html">Delete Movie</a><br><br>
+<a href="http://localhost:8080/movie-management/SearchMovie.html">Search Movie</a><br><br>
+
+</body>
+</html>
